@@ -1,6 +1,6 @@
 const express = require("express");
 const axios = require("axios");
-const port = 3000;
+const port = 5000;
 const app = express()
 const cors=require('cors')
 // let name = 
@@ -22,5 +22,5 @@ async function fetchPokemon(){
 fetchPokemon()
 
 app.listen(3000,()=>{
-    console.log(`app running on port ${port}` )
+    console.log(`app running on port 3000` )
 })
